@@ -1,0 +1,145 @@
+.team-create-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .team-create-title {
+    background-color: #fff;
+    color: #000;
+    font-size: 35px;
+    margin: 10px;
+  }
+  .team-create-content {
+    background: #fff;
+    width: 75%;
+    text-align: center;
+  }
+}
+.layer_box {
+  .component-apiform {
+    form {
+      .apiform-table {
+        tbody {
+          tr {
+            display: flex;
+            flex-direction: column;
+            .apiForm-input {
+              font-size: 14px;
+              width: 100%;
+              height: 40px;
+              padding: 0 16px;
+              color: #333;
+              border: 1px solid #ccc;
+              background: #fff;
+              border-radius: 10px;
+            }
+            .apiForm-textarea {
+              font-size: 14px;
+              width: 100%;
+              height: 100px;
+              padding: 0 16px;
+              color: #333;
+              border: 1px solid #ccc;
+              background: #fff;
+              border-radius: 10px;
+            }
+            .apiform-title {
+              color: #fff;
+              text-align: left;
+            }
+            .apiform-content {
+              .component-radio {
+                color: #fff;
+              }
+              .component-radio > div:hover {
+                background: #333;
+              }
+              .file-logo-container {
+                position: relative;
+                .logo-url {
+                  font-size: 14px;
+                  width: 100%;
+                  height: 40px;
+                  padding-left: 16px;
+                  padding-right: 40px;
+                  color: #333;
+                  border: 1px solid #ccc;
+                  background: #fff;
+                  border-radius: 10px;
+                }
+                .logo-img-btn {
+                  position: absolute;
+                  right: 5px;
+                  padding-top: 5px;
+                  font-size: 35px;
+                }
+              }
+              .container-fileUpload-background {
+                .container-fileUpload {
+                  width: 100%;
+                  margin: 10vh 0;
+                  .fileUpload-button-div {
+                    background-color: #008CBA;
+                  }
+                }
+              }
+              .schedule_layout {
+                padding: 10px;
+                background-color: #fff;
+                margin-top: 10px;
+                .schedule_time {
+                  margin: 10px 0px;
+                  display: flex;
+                  flex-direction: row;
+                  height: 30px;
+                  justify-content: center;
+                  align-items: center;
+                  .start-time-masked-input {
+                    border: 2px solid #ccc; 
+                    text-align: center;
+                    margin: 0 10px;
+                    font-size: 15px;
+                    width: 120px;
+                    &:focus {
+                      border-color:  #3399cc;
+                      border-width: 2px;
+                    }
+                  }
+                  .end-time-masked-input {
+                    border: 2px solid #ccc; 
+                    text-align: center;
+                    margin: 0 10px;
+                    font-size: 15px;
+                    width: 120px;
+                    &:focus {
+                      border-color:  #3399cc;
+                      border-width: 2px;
+                    }
+                  }
+                }
+                .week-btn-group{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-around;
+                  .btn_check {
+                    margin-right: 10px;    
+                    cursor: pointer;
+                    background-color: #e7e7e7;
+                    color: black;
+                    border-radius: 2px;
+                    padding: 8px;
+                  }
+                  .btn_checked {
+                    background-color: #008CBA;
+                    color: black;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

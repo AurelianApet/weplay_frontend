@@ -1,0 +1,41 @@
+.container-component-pub-item {
+  display: flex;
+  box-shadow: 1px 1px 5px 1px #ccc;
+  margin-top: 12px;
+  .pub-item-image {
+    padding: 10px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &>img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .pub-detail-container {
+    color: #888;
+    font-size: 13px;
+    padding: 10px;
+    width: calc(100% - 250px);
+    .pub-detail-tag-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .pub-detail-beer-count {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .pub-name {
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .pub-detail-item {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

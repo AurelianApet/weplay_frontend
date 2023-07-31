@@ -1,0 +1,43 @@
+.container-beer-filter-sort-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  .filter-body{
+    // width: 40%;
+    display: flex;
+    flex-direction: row;
+    .filter-item {
+      display: flex;
+      margin: 0 10px;
+      justify-content: center;
+      align-items: center;
+      &>span {
+        min-width: max-content;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .sort-body {
+    // width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sort-option-title {
+      font-size: 16px;
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sort-direction {
+      width: 60px;
+      padding: 10px 0px;
+      text-align: center;
+    }
+  }
+}

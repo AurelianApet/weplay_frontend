@@ -1,0 +1,15 @@
+.apiform-button-div {
+  cursor: pointer;
+  .apiform-submit-button {
+    margin: 10px auto;
+  }
+  &>i {
+    font-size: 25px;
+    color: #44b6ae;
+    cursor: pointer;
+  }
+  .apiform-button-disabled {
+    color: #DBE3EB;
+    cursor: not-allowed;
+  }
+}

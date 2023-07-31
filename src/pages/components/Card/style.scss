@@ -1,0 +1,69 @@
+.puit-card-header {
+  color: white;
+  .puit-card-title{
+    margin-left: 30px;
+  }
+  .collapse-button-div{
+    display: inline-block;
+    padding: 0 10px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+.puit-card-body {
+  border: 1px solid;
+  // transition: all 2s;
+  // transition-delay: .01;
+}
+
+.puit-card-body-opened {
+  display: block;
+  // height: auto;
+  // display: block;
+  // height: auto;
+  // transition: all 1s;
+  // overflow: hidden;
+  // *:only-child{
+  //   display: block;
+  // }
+}
+
+.puit-card-body-closed {
+  display: none;
+  // height: 0;
+  // display: none;
+  // height: 0;
+  // transition: all 1s;
+  // *:only-child{
+  //   display: none;
+  // }
+}
+
+.puit-card-header-admin {
+  background: #3598dc;
+  border-color: #3598dc;
+}
+
+.puit-card-body-admin {
+  border-color: #3598dc;
+}
+
+.puit-card-header-support {
+  background: #3fab8b;
+  border-color: #3fab8b;
+}
+
+.puit-card-body-support {
+  border-color: #3fab8b;
+}
+
+.puit-card-header-evaluation {
+  background: #d05454;
+  border-color: #d05454;
+}
+
+.puit-card-body-evaluation {
+  border-color: #d05454;
+}

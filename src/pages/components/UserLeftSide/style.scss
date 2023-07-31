@@ -1,0 +1,10 @@
+.container-page-userleftside{
+    margin-right: 13px;
+    width: 220px;
+    @media (max-width: 400px) {
+        width: 100%;
+    }
+    .margintop{
+        margin-top: 10px;
+    }
+}

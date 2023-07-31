@@ -1,0 +1,39 @@
+.component-container-beer-table {
+  .beer-table {
+    td, th {
+      padding: 5px;
+      border: 1px solid #ddd;
+      vertical-align: middle;
+      text-align: center;
+    }
+    th {
+      font-size: 18px;
+    }
+    td {
+      font-size: 16px;
+    }
+    tbody {
+      tr {
+        td {
+          .beer-table-checkbox {
+            width: 20px;
+            height: 20px;
+            -webkit-appearance: checkbox;
+            appearance: checkbox;
+            cursor: pointer;
+          }
+          img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+        &:nth-of-type( odd ) {
+          background-color: #f9f9f9;
+        }
+        &:hover {
+          background-color: #f5f5f5;
+        }
+      }
+    }
+  }
+}
